@@ -134,7 +134,7 @@ eth-cli fork --network mainnet --keep
 
 ### Environment Variables
 
-- `ALCHEMY_API_KEY` - Your Alchemy API key for better RPC performance (default: demo key)
+- `ALCHEMY_API_KEY` - Your Alchemy API key for better RPC performance (optional)
 - `ANVIL_PORT` - Default port for Anvil (default: 8545)
 - `ANVIL_HOST` - Default host for Anvil (default: 127.0.0.1)
 
@@ -155,6 +155,8 @@ ALCHEMY_API_KEY=your_key eth-cli simulate --tx 0x123... --fork mainnet
 - Better performance
 - More reliable connections
 - Access to archive data
+
+**Note:** If no API key is provided, the CLI will use public RPC endpoints with rate limits.
 
 ### Custom RPC URLs
 
