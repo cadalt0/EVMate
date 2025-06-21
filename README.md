@@ -2,6 +2,8 @@
 
 A powerful CLI wrapper around Anvil (Foundry's local Ethereum node) that simplifies complex Ethereum development tasks like forking mainnet, simulating transactions, and inspecting onchain state.
 
+Understand How it work [here](https://github.com/cadalt0/EVMate/blob/main/Howitwork.md) 
+
 ## Features
 
 - 🚀 **One-line transaction simulation** on forked networks
